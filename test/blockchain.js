@@ -33,7 +33,7 @@ d1ef07e0d9bc58d9d52bb8e642e63468cbc1fc179eccfe2bbe261bf0df06527cdd170c1d8c4c005\
     })
   })
 
-  it('getRawTx', function(done) {
+  it.skip('getRawTx', function(done) {
     bs.getRawTx('c6c606f7b584b7f13cc50b823875c4ec3a4ac04f7bfc66790e25cc6281b25e48', function(error, response) {
       expect(error).to.be.null
       expect(response).to.be.equal(
@@ -42,7 +42,7 @@ d1ef07e0d9bc58d9d52bb8e642e63468cbc1fc179eccfe2bbe261bf0df06527cdd170c1d8c4c005\
     })
   })
 
-  it ('getTx', function(done) {
+  it.skip('getTx', function(done) {
     bs.getTx('c6c606f7b584b7f13cc50b823875c4ec3a4ac04f7bfc66790e25cc6281b25e48', function(error, response) {
       expect(error).to.be.null
       expect(response).to.deep.equal(
